@@ -1,0 +1,785 @@
+CREATE TABLE text_an
+(
+wordID int,
+Lemma varchar(255),
+WordForm varchar(255),
+POS varchar(255)
+);
+INSERT INTO text_an
+VALUES ('1', 'современный', 'современных', 'A');
+INSERT INTO text_an
+VALUES ('2', 'специально', 'специально', 'ADV');
+INSERT INTO text_an
+VALUES ('3', 'связь', 'связь', 'S');
+INSERT INTO text_an
+VALUES ('4', 'ссср', 'СССР', 'S');
+INSERT INTO text_an
+VALUES ('5', 'силовой', 'Силовые', 'A');
+INSERT INTO text_an
+VALUES ('6', 'структура', 'структуры', 'S');
+INSERT INTO text_an
+VALUES ('7', 'спорт', 'Спорт', 'S');
+INSERT INTO text_an
+VALUES ('8', 'сми', 'СМИ', 'S');
+INSERT INTO text_an
+VALUES ('9', 'статья', 'Статьи', 'S');
+INSERT INTO text_an
+VALUES ('10', 'спецпроект', 'Спецпроекты', 'S');
+INSERT INTO text_an
+VALUES ('11', 'становиться', 'стал', 'V');
+INSERT INTO text_an
+VALUES ('12', 'социальный', 'социальных', 'A');
+INSERT INTO text_an
+VALUES ('13', 'сеть', 'сетей', 'S');
+INSERT INTO text_an
+VALUES ('14', 'сша', 'США', 'S');
+INSERT INTO text_an
+VALUES ('15', 'свой', 'своей', 'APRO');
+INSERT INTO text_an
+VALUES ('16', 'санкция', 'санкций', 'S');
+INSERT INTO text_an
+VALUES ('17', 'следующий', 'следующий', 'A');
+INSERT INTO text_an
+VALUES ('18', 'смерть', 'смерти', 'S');
+INSERT INTO text_an
+VALUES ('19', 'свой', 'своей', 'APRO');
+INSERT INTO text_an
+VALUES ('20', 'смениться', 'сменился', 'V');
+INSERT INTO text_an
+VALUES ('21', 'сайт', 'сайт', 'S');
+INSERT INTO text_an
+VALUES ('22', 'современный', 'современных', 'A');
+INSERT INTO text_an
+VALUES ('23', 'специально', 'специально', 'ADV');
+INSERT INTO text_an
+VALUES ('24', 'становиться', 'стала', 'V');
+INSERT INTO text_an
+VALUES ('25', 'середина', 'середине', 'S');
+INSERT INTO text_an
+VALUES ('26', 'современный', 'Современный', 'A');
+INSERT INTO text_an
+VALUES ('27', 'сборник', 'сборник', 'S');
+INSERT INTO text_an
+VALUES ('28', 'современный', 'современной', 'A');
+INSERT INTO text_an
+VALUES ('29', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('30', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('31', 'следующий', 'следующая', 'A');
+INSERT INTO text_an
+VALUES ('32', 'студенческий', 'Студенческий', 'A');
+INSERT INTO text_an
+VALUES ('33', 'совсем', 'совсем', 'ADV');
+INSERT INTO text_an
+VALUES ('34', 'сразу', 'сразу', 'ADV');
+INSERT INTO text_an
+VALUES ('35', 'свой', 'Своего', 'APRO');
+INSERT INTO text_an
+VALUES ('36', 'семнадцатый', 'семнадцатом', 'ANUM');
+INSERT INTO text_an
+VALUES ('37', 'совместный', 'совместной', 'A');
+INSERT INTO text_an
+VALUES ('38', 'самый', 'самое', 'APRO');
+INSERT INTO text_an
+VALUES ('39', 'смешной', 'смешное', 'A');
+INSERT INTO text_an
+VALUES ('40', 'сын', 'сын', 'S');
+INSERT INTO text_an
+VALUES ('41', 'сентябрь', 'сентябре', 'S');
+INSERT INTO text_an
+VALUES ('42', 'снова', 'снова', 'ADV');
+INSERT INTO text_an
+VALUES ('43', 'становиться', 'стало', 'V');
+INSERT INTO text_an
+VALUES ('44', 'сам', 'сам', 'APRO');
+INSERT INTO text_an
+VALUES ('45', 'смерть', 'смерти', 'S');
+INSERT INTO text_an
+VALUES ('46', 'семнадцать', 'семнадцать', 'NUM');
+INSERT INTO text_an
+VALUES ('47', 'способный', 'способны', 'A');
+INSERT INTO text_an
+VALUES ('48', 'себя', 'себя', 'SPRO');
+INSERT INTO text_an
+VALUES ('49', 'создавать', 'создавал', 'V');
+INSERT INTO text_an
+VALUES ('50', 'совсем', 'совсем', 'ADV');
+INSERT INTO text_an
+VALUES ('51', 'страдать', 'страдал', 'V');
+INSERT INTO text_an
+VALUES ('52', 'свой', 'своему', 'SPRO');
+INSERT INTO text_an
+VALUES ('53', 'спасать', 'спас', 'V');
+INSERT INTO text_an
+VALUES ('54', 'случаться', 'случилась', 'V');
+INSERT INTO text_an
+VALUES ('55', 'сначала', 'Сначала', 'ADV');
+INSERT INTO text_an
+VALUES ('56', 'сначала', 'сначала', 'ADV');
+INSERT INTO text_an
+VALUES ('57', 'со', 'со', 'PR');
+INSERT INTO text_an
+VALUES ('58', 'становиться', 'стала', 'V');
+INSERT INTO text_an
+VALUES ('59', 'себя', 'себя', 'SPRO');
+INSERT INTO text_an
+VALUES ('60', 'секция', 'секцию', 'S');
+INSERT INTO text_an
+VALUES ('61', 'специально', 'специально', 'ADV');
+INSERT INTO text_an
+VALUES ('62', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('63', 'синева', 'Синевы', 'S');
+INSERT INTO text_an
+VALUES ('64', 'серый', 'серые', 'A');
+INSERT INTO text_an
+VALUES ('65', 'секция', 'секция', 'S');
+INSERT INTO text_an
+VALUES ('66', 'себя', 'себе', 'SPRO');
+INSERT INTO text_an
+VALUES ('67', 'салажонок', 'салажата', 'S');
+INSERT INTO text_an
+VALUES ('68', 'совсем', 'совсем', 'ADV');
+INSERT INTO text_an
+VALUES ('69', 'сам', 'сам', 'APRO');
+INSERT INTO text_an
+VALUES ('70', 'смотреть', 'смотрит', 'V');
+INSERT INTO text_an
+VALUES ('71', 'становиться', 'стала', 'V');
+INSERT INTO text_an
+VALUES ('72', 'сказать', 'скажу', 'V');
+INSERT INTO text_an
+VALUES ('73', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('74', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('75', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('76', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('77', 'сильно', 'сильно', 'ADV');
+INSERT INTO text_an
+VALUES ('78', 'стоять', 'стоял', 'V');
+INSERT INTO text_an
+VALUES ('79', 'случаться', 'случилось', 'V');
+INSERT INTO text_an
+VALUES ('80', 'суббота', 'субботу', 'S');
+INSERT INTO text_an
+VALUES ('81', 'сходить', 'сходили', 'V');
+INSERT INTO text_an
+VALUES ('82', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('83', 'стоять', 'стоял', 'V');
+INSERT INTO text_an
+VALUES ('84', 'смешной', 'смешные', 'A');
+INSERT INTO text_an
+VALUES ('85', 'сам', 'сама', 'APRO');
+INSERT INTO text_an
+VALUES ('86', 'свет', 'света', 'S');
+INSERT INTO text_an
+VALUES ('87', 'строгино', 'Строгино', 'S');
+INSERT INTO text_an
+VALUES ('88', 'страна', 'стране', 'S');
+INSERT INTO text_an
+VALUES ('89', 'слово', 'слова', 'S');
+INSERT INTO text_an
+VALUES ('90', 'сказать', 'сказав', 'V');
+INSERT INTO text_an
+VALUES ('91', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('92', 'справлять', 'справлять', 'V');
+INSERT INTO text_an
+VALUES ('93', 'строить', 'строила', 'V');
+INSERT INTO text_an
+VALUES ('94', 'смотреть', 'смотрел', 'V');
+INSERT INTO text_an
+VALUES ('95', 'совсем', 'совсем', 'ADV');
+INSERT INTO text_an
+VALUES ('96', 'срочно', 'срочно', 'ADV');
+INSERT INTO text_an
+VALUES ('97', 'сильный', 'сильный', 'A');
+INSERT INTO text_an
+VALUES ('98', 'свой', 'свой', 'APRO');
+INSERT INTO text_an
+VALUES ('99', 'со', 'со', 'PR');
+INSERT INTO text_an
+VALUES ('100', 'сторона', 'сторон', 'S');
+INSERT INTO text_an
+VALUES ('101', 'сарафан', 'сарафане', 'S');
+INSERT INTO text_an
+VALUES ('102', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('103', 'смеяться', 'смеюсь', 'V');
+INSERT INTO text_an
+VALUES ('104', 'стеснительность', 'стеснительности', 'S');
+INSERT INTO text_an
+VALUES ('105', 'сжимать', 'сжимает', 'V');
+INSERT INTO text_an
+VALUES ('106', 'складываться', 'сложиться', 'V');
+INSERT INTO text_an
+VALUES ('107', 'сайт', 'сайт', 'S');
+INSERT INTO text_an
+VALUES ('108', 'соседка', 'соседке', 'S');
+INSERT INTO text_an
+VALUES ('109', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('110', 'сильный', 'сильным', 'A');
+INSERT INTO text_an
+VALUES ('111', 'сильно', 'сильно', 'ADV');
+INSERT INTO text_an
+VALUES ('112', 'старый', 'старше', 'A');
+INSERT INTO text_an
+VALUES ('113', 'себя', 'себя', 'SPRO');
+INSERT INTO text_an
+VALUES ('114', 'соглашаться', 'согласилась', 'V');
+INSERT INTO text_an
+VALUES ('115', 'сынок', 'Сынок', 'S');
+INSERT INTO text_an
+VALUES ('116', 'серый', 'серое', 'A');
+INSERT INTO text_an
+VALUES ('117', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('118', 'синий', 'синие', 'A');
+INSERT INTO text_an
+VALUES ('119', 'сталь', 'сталь', 'S');
+INSERT INTO text_an
+VALUES ('120', 'сверху', 'сверху', 'ADV');
+INSERT INTO text_an
+VALUES ('121', 'стройный', 'стройный', 'A');
+INSERT INTO text_an
+VALUES ('122', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('123', 'с', 'С', 'S');
+INSERT INTO text_an
+VALUES ('124', 'спорить', 'спорю', 'V');
+INSERT INTO text_an
+VALUES ('125', 'смуглый', 'смуглый', 'A');
+INSERT INTO text_an
+VALUES ('126', 'собираться', 'собирался', 'V');
+INSERT INTO text_an
+VALUES ('127', 'становиться', 'стать', 'V');
+INSERT INTO text_an
+VALUES ('128', 'спать', 'Спать', 'V');
+INSERT INTO text_an
+VALUES ('129', 'слезать', 'слез', 'V');
+INSERT INTO text_an
+VALUES ('130', 'сын', 'сын', 'S');
+INSERT INTO text_an
+VALUES ('131', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('132', 'смотреть', 'смотрит', 'V');
+INSERT INTO text_an
+VALUES ('133', 'странно', 'странно', 'ADV');
+INSERT INTO text_an
+VALUES ('134', 'сходить', 'сходить', 'V');
+INSERT INTO text_an
+VALUES ('135', 'совет', 'совет', 'S');
+INSERT INTO text_an
+VALUES ('136', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('137', 'сейчас', 'сейчас', 'ADV');
+INSERT INTO text_an
+VALUES ('138', 'связанный', 'связаны', 'A');
+INSERT INTO text_an
+VALUES ('139', 'свой', 'своем', 'APRO');
+INSERT INTO text_an
+VALUES ('140', 'сказануть', 'сказанет', 'V');
+INSERT INTO text_an
+VALUES ('141', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('142', 'следом', 'следом', 'ADV');
+INSERT INTO text_an
+VALUES ('143', 'сын', 'сын', 'S');
+INSERT INTO text_an
+VALUES ('144', 'смолчать', 'смолчал', 'V');
+INSERT INTO text_an
+VALUES ('145', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('146', 'собирать', 'собрал', 'V');
+INSERT INTO text_an
+VALUES ('147', 'слух', 'слуху', 'S');
+INSERT INTO text_an
+VALUES ('148', 'счет', 'счету', 'S');
+INSERT INTO text_an
+VALUES ('149', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('150', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('151', 'сидеть', 'сидит', 'V');
+INSERT INTO text_an
+VALUES ('152', 'себя', 'себя', 'SPRO');
+INSERT INTO text_an
+VALUES ('153', 'слушать', 'слушает', 'V');
+INSERT INTO text_an
+VALUES ('154', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('155', 'совет', 'совет', 'S');
+INSERT INTO text_an
+VALUES ('156', 'съездить', 'Съездить', 'V');
+INSERT INTO text_an
+VALUES ('157', 'совсем', 'совсем', 'ADV');
+INSERT INTO text_an
+VALUES ('158', 'свое', 'свое', 'SPRO');
+INSERT INTO text_an
+VALUES ('159', 'смешно', 'Смешно', 'ADV');
+INSERT INTO text_an
+VALUES ('160', 'становиться', 'стало', 'V');
+INSERT INTO text_an
+VALUES ('161', 'стыдно', 'стыдно', 'ADV');
+INSERT INTO text_an
+VALUES ('162', 'с', 'С', 'S');
+INSERT INTO text_an
+VALUES ('163', 'сторона', 'стороны', 'S');
+INSERT INTO text_an
+VALUES ('164', 'сын', 'сын', 'S');
+INSERT INTO text_an
+VALUES ('165', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('166', 'сложность', 'сложностями', 'S');
+INSERT INTO text_an
+VALUES ('167', 'стоять', 'стоял', 'V');
+INSERT INTO text_an
+VALUES ('168', 'снегопад', 'снегопад', 'S');
+INSERT INTO text_an
+VALUES ('169', 'сначала', 'сначала', 'ADV');
+INSERT INTO text_an
+VALUES ('170', 'стоять', 'стояла', 'V');
+INSERT INTO text_an
+VALUES ('171', 'сугроб', 'сугробы', 'S');
+INSERT INTO text_an
+VALUES ('172', 'сколько', 'сколько', 'ADV');
+INSERT INTO text_an
+VALUES ('173', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('174', 'скоро', 'скорее', 'ADV');
+INSERT INTO text_an
+VALUES ('175', 'статный', 'статная', 'A');
+INSERT INTO text_an
+VALUES ('176', 'самый', 'самая', 'APRO');
+INSERT INTO text_an
+VALUES ('177', 'скромный', 'скромная', 'A');
+INSERT INTO text_an
+VALUES ('178', 'сильно', 'сильно', 'ADV');
+INSERT INTO text_an
+VALUES ('179', 'сложность', 'сложность', 'S');
+INSERT INTO text_an
+VALUES ('180', 'сын', 'сына', 'S');
+INSERT INTO text_an
+VALUES ('181', 'скоро', 'скоро', 'ADV');
+INSERT INTO text_an
+VALUES ('182', 'сам', 'сам', 'APRO');
+INSERT INTO text_an
+VALUES ('183', 'сразу', 'сразу', 'ADV');
+INSERT INTO text_an
+VALUES ('184', 'свихиваться', 'свихнулась', 'V');
+INSERT INTO text_an
+VALUES ('185', 'сначала', 'сначала', 'ADV');
+INSERT INTO text_an
+VALUES ('186', 'свой', 'свою', 'APRO');
+INSERT INTO text_an
+VALUES ('187', 'суровый', 'суровая', 'A');
+INSERT INTO text_an
+VALUES ('188', 'снег', 'снега', 'S');
+INSERT INTO text_an
+VALUES ('189', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('190', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('191', 'собака', 'собакой', 'S');
+INSERT INTO text_an
+VALUES ('192', 'спрашивать', 'спросить', 'V');
+INSERT INTO text_an
+VALUES ('193', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('194', 'снова', 'снова', 'ADV');
+INSERT INTO text_an
+VALUES ('195', 'сердце', 'сердце', 'S');
+INSERT INTO text_an
+VALUES ('196', 'сколько', 'Сколько', 'ADV');
+INSERT INTO text_an
+VALUES ('197', 'сердце', 'сердца', 'S');
+INSERT INTO text_an
+VALUES ('198', 'скверный', 'скверного', 'A');
+INSERT INTO text_an
+VALUES ('199', 'снег', 'снегом', 'S');
+INSERT INTO text_an
+VALUES ('200', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('201', 'со', 'со', 'PR');
+INSERT INTO text_an
+VALUES ('202', 'слово', 'слова', 'S');
+INSERT INTO text_an
+VALUES ('203', 'слышать', 'слышала', 'V');
+INSERT INTO text_an
+VALUES ('204', 'слово', 'словах', 'S');
+INSERT INTO text_an
+VALUES ('205', 'слово', 'слова', 'S');
+INSERT INTO text_an
+VALUES ('206', 'сказать', 'скажет', 'V');
+INSERT INTO text_an
+VALUES ('207', 'сказать', 'скажет', 'V');
+INSERT INTO text_an
+VALUES ('208', 'спрашивать', 'спросила', 'V');
+INSERT INTO text_an
+VALUES ('209', 'сказать', 'сказано', 'V');
+INSERT INTO text_an
+VALUES ('210', 'сердце', 'сердце', 'S');
+INSERT INTO text_an
+VALUES ('211', 'становиться', 'Стала', 'V');
+INSERT INTO text_an
+VALUES ('212', 'сердце', 'сердце', 'S');
+INSERT INTO text_an
+VALUES ('213', 'сомнение', 'сомнений', 'S');
+INSERT INTO text_an
+VALUES ('214', 'снова', 'снова', 'ADV');
+INSERT INTO text_an
+VALUES ('215', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('216', 'спустя', 'спустя', 'PR');
+INSERT INTO text_an
+VALUES ('217', 'судьба', 'судьба', 'S');
+INSERT INTO text_an
+VALUES ('218', 'сергей', 'Сергеем', 'S');
+INSERT INTO text_an
+VALUES ('219', 'сплошь', 'сплошь', 'ADV');
+INSERT INTO text_an
+VALUES ('220', 'старый', 'старые', 'A');
+INSERT INTO text_an
+VALUES ('221', 'совсем', 'совсем', 'ADV');
+INSERT INTO text_an
+VALUES ('222', 'страница', 'странице', 'S');
+INSERT INTO text_an
+VALUES ('223', 'свой', 'своего', 'APRO');
+INSERT INTO text_an
+VALUES ('224', 'сын', 'сына', 'S');
+INSERT INTO text_an
+VALUES ('225', 'сразу', 'сразу', 'ADV');
+INSERT INTO text_an
+VALUES ('226', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('227', 'сын', 'сыном', 'S');
+INSERT INTO text_an
+VALUES ('228', 'сказать', 'сказать', 'V');
+INSERT INTO text_an
+VALUES ('229', 'съездить', 'съездила', 'V');
+INSERT INTO text_an
+VALUES ('230', 'становиться', 'стал', 'V');
+INSERT INTO text_an
+VALUES ('231', 'снова', 'снова', 'ADV');
+INSERT INTO text_an
+VALUES ('232', 'стойка', 'стойки', 'S');
+INSERT INTO text_an
+VALUES ('233', 'сказать', 'сказала', 'V');
+INSERT INTO text_an
+VALUES ('234', 'сережа', 'Сережа', 'S');
+INSERT INTO text_an
+VALUES ('235', 'становиться', 'стал', 'V');
+INSERT INTO text_an
+VALUES ('236', 'совсем', 'совсем', 'ADV');
+INSERT INTO text_an
+VALUES ('237', 'смотреться', 'смотрится', 'V');
+INSERT INTO text_an
+VALUES ('238', 'сам', 'сама', 'APRO');
+INSERT INTO text_an
+VALUES ('239', 'советский', 'советское', 'A');
+INSERT INTO text_an
+VALUES ('240', 'стирать', 'стирали', 'V');
+INSERT INTO text_an
+VALUES ('241', 'сушить', 'сушили', 'V');
+INSERT INTO text_an
+VALUES ('242', 'стоять', 'стою', 'V');
+INSERT INTO text_an
+VALUES ('243', 'столбик', 'столбиком', 'S');
+INSERT INTO text_an
+VALUES ('244', 'сережа', 'Сережа', 'S');
+INSERT INTO text_an
+VALUES ('245', 'столик', 'столике', 'S');
+INSERT INTO text_an
+VALUES ('246', 'стоять', 'стоит', 'V');
+INSERT INTO text_an
+VALUES ('247', 'совсем', 'совсем', 'ADV');
+INSERT INTO text_an
+VALUES ('248', 'сын', 'Сын', 'S');
+INSERT INTO text_an
+VALUES ('249', 'справлять', 'справлять', 'V');
+INSERT INTO text_an
+VALUES ('250', 'схватываться', 'схватился', 'V');
+INSERT INTO text_an
+VALUES ('251', 'сходить', 'сходил', 'V');
+INSERT INTO text_an
+VALUES ('252', 'спрашивать', 'Спросила', 'V');
+INSERT INTO text_an
+VALUES ('253', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('254', 'себя', 'собой', 'SPRO');
+INSERT INTO text_an
+VALUES ('255', 'сказать', 'сказать', 'V');
+INSERT INTO text_an
+VALUES ('256', 'свидание', 'свиданья', 'S');
+INSERT INTO text_an
+VALUES ('257', 'сказать', 'сказал', 'V');
+INSERT INTO text_an
+VALUES ('258', 'сказать', 'сказал', 'V');
+INSERT INTO text_an
+VALUES ('259', 'сразу', 'сразу', 'ADV');
+INSERT INTO text_an
+VALUES ('260', 'сейчас', 'сейчас', 'ADV');
+INSERT INTO text_an
+VALUES ('261', 'сторона', 'сторону', 'S');
+INSERT INTO text_an
+VALUES ('262', 'солоно', 'солоно', 'ADV');
+INSERT INTO text_an
+VALUES ('263', 'сейчас', 'сейчас', 'ADV');
+INSERT INTO text_an
+VALUES ('264', 'сменить', 'сменил', 'V');
+INSERT INTO text_an
+VALUES ('265', 'специальность', 'специальности', 'S');
+INSERT INTO text_an
+VALUES ('266', 'сюда', 'сюда', 'ADVPRO');
+INSERT INTO text_an
+VALUES ('267', 'совсем', 'совсем', 'ADV');
+INSERT INTO text_an
+VALUES ('268', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('269', 'смех', 'смех', 'S');
+INSERT INTO text_an
+VALUES ('270', 'смотреть', 'смотрит', 'V');
+INSERT INTO text_an
+VALUES ('271', 'становиться', 'Стала', 'V');
+INSERT INTO text_an
+VALUES ('272', 'собираться', 'собираться', 'V');
+INSERT INTO text_an
+VALUES ('273', 'сказать', 'сказала', 'V');
+INSERT INTO text_an
+VALUES ('274', 'сегодня', 'сегодня', 'ADV');
+INSERT INTO text_an
+VALUES ('275', 'снимать', 'снять', 'V');
+INSERT INTO text_an
+VALUES ('276', 'стоять', 'стоит', 'V');
+INSERT INTO text_an
+VALUES ('277', 'свежий', 'свежий', 'A');
+INSERT INTO text_an
+VALUES ('278', 'соглашаться', 'согласился', 'V');
+INSERT INTO text_an
+VALUES ('279', 'сейчас', 'сейчас', 'ADV');
+INSERT INTO text_an
+VALUES ('280', 'ставить', 'ставил', 'V');
+INSERT INTO text_an
+VALUES ('281', 'сам', 'сами', 'APRO');
+INSERT INTO text_an
+VALUES ('282', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('283', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('284', 'самый', 'самых', 'APRO');
+INSERT INTO text_an
+VALUES ('285', 'сжимать', 'сожмет', 'V');
+INSERT INTO text_an
+VALUES ('286', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('287', 'смотреть', 'смотрит', 'V');
+INSERT INTO text_an
+VALUES ('288', 'сегодня', 'Сегодня', 'ADV');
+INSERT INTO text_an
+VALUES ('289', 'сегодня', 'Сегодня', 'ADV');
+INSERT INTO text_an
+VALUES ('290', 'следующий', 'следующий', 'A');
+INSERT INTO text_an
+VALUES ('291', 'смерть', 'смерти', 'S');
+INSERT INTO text_an
+VALUES ('292', 'свой', 'своей', 'APRO');
+INSERT INTO text_an
+VALUES ('293', 'срочно', 'срочно', 'ADV');
+INSERT INTO text_an
+VALUES ('294', 'список', 'список', 'S');
+INSERT INTO text_an
+VALUES ('295', 'самый', 'самых', 'APRO');
+INSERT INTO text_an
+VALUES ('296', 'современный', 'современном', 'A');
+INSERT INTO text_an
+VALUES ('297', 'сирия', 'Сирии', 'S');
+INSERT INTO text_an
+VALUES ('298', 'слышать', 'слышит', 'V');
+INSERT INTO text_an
+VALUES ('299', 'синоптик', 'Синоптики', 'S');
+INSERT INTO text_an
+VALUES ('300', 'смерть', 'смерти', 'S');
+INSERT INTO text_an
+VALUES ('301', 'способность', 'способности', 'S');
+INSERT INTO text_an
+VALUES ('302', 'сша', 'США', 'S');
+INSERT INTO text_an
+VALUES ('303', 'свой', 'своей', 'APRO');
+INSERT INTO text_an
+VALUES ('304', 'санкция', 'санкций', 'S');
+INSERT INTO text_an
+VALUES ('305', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('306', 'сми', 'СМИ', 'S');
+INSERT INTO text_an
+VALUES ('307', 'сирия', 'Сирии', 'S');
+INSERT INTO text_an
+VALUES ('308', 'сирия', 'Сирии', 'S');
+INSERT INTO text_an
+VALUES ('309', 'ссср', 'СССР', 'S');
+INSERT INTO text_an
+VALUES ('310', 'самый', 'Самые', 'APRO');
+INSERT INTO text_an
+VALUES ('311', 'событие', 'события', 'S');
+INSERT INTO text_an
+VALUES ('312', 'ссср', 'СССР', 'S');
+INSERT INTO text_an
+VALUES ('313', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('314', 'снова', 'снова', 'ADV');
+INSERT INTO text_an
+VALUES ('315', 'сражаться', 'сражается', 'V');
+INSERT INTO text_an
+VALUES ('316', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('317', 'сектор', 'сектором', 'S');
+INSERT INTO text_an
+VALUES ('318', 'содержаться', 'содержащихся', 'V');
+INSERT INTO text_an
+VALUES ('319', 'сбу', 'СБУ', 'S');
+INSERT INTO text_an
+VALUES ('320', 'состояться', 'состоялось', 'V');
+INSERT INTO text_an
+VALUES ('321', 'скорый', 'скорый', 'A');
+INSERT INTO text_an
+VALUES ('322', 'середина', 'середина', 'S');
+INSERT INTO text_an
+VALUES ('323', 'сбербанк', 'Сбербанк', 'S');
+INSERT INTO text_an
+VALUES ('324', 'собственный', 'собственный', 'A');
+INSERT INTO text_an
+VALUES ('325', 'создавать', 'создана', 'V');
+INSERT INTO text_an
+VALUES ('326', 'статус', 'статус', 'S');
+INSERT INTO text_an
+VALUES ('327', 'силовой', 'Силовые', 'A');
+INSERT INTO text_an
+VALUES ('328', 'структура', 'структуры', 'S');
+INSERT INTO text_an
+VALUES ('329', 'следствие', 'следствие', 'S');
+INSERT INTO text_an
+VALUES ('330', 'сотрудник', 'сотрудника', 'S');
+INSERT INTO text_an
+VALUES ('331', 'сообщество', 'сообщества', 'S');
+INSERT INTO text_an
+VALUES ('332', 'сотрудник', 'Сотрудника', 'S');
+INSERT INTO text_an
+VALUES ('333', 'самый', 'Самые', 'APRO');
+INSERT INTO text_an
+VALUES ('334', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('335', 'событие', 'события', 'S');
+INSERT INTO text_an
+VALUES ('336', 'смартфон', 'смартфоны', 'S');
+INSERT INTO text_an
+VALUES ('337', 'следить', 'следящие', 'V');
+INSERT INTO text_an
+VALUES ('338', 'спорт', 'Спорт', 'S');
+INSERT INTO text_an
+VALUES ('339', 'самый', 'самом', 'APRO');
+INSERT INTO text_an
+VALUES ('340', 'снимать', 'Снять', 'V');
+INSERT INTO text_an
+VALUES ('341', 'смениться', 'сменился', 'V');
+INSERT INTO text_an
+VALUES ('342', 'сми', 'СМИ', 'S');
+INSERT INTO text_an
+VALUES ('343', 'сообщать', 'сообщили', 'V');
+INSERT INTO text_an
+VALUES ('344', 'сериал', 'сериалы', 'S');
+INSERT INTO text_an
+VALUES ('345', 'самый', 'самых', 'APRO');
+INSERT INTO text_an
+VALUES ('346', 'следующий', 'следующий', 'A');
+INSERT INTO text_an
+VALUES ('347', 'смерть', 'смерти', 'S');
+INSERT INTO text_an
+VALUES ('348', 'свой', 'своей', 'APRO');
+INSERT INTO text_an
+VALUES ('349', 'срочно', 'срочно', 'ADV');
+INSERT INTO text_an
+VALUES ('350', 'сми', 'СМИ', 'S');
+INSERT INTO text_an
+VALUES ('351', 'смешно', 'смешно', 'ADV');
+INSERT INTO text_an
+VALUES ('352', 'стоять', 'стоит', 'V');
+INSERT INTO text_an
+VALUES ('353', 'самый', 'самыми', 'APRO');
+INSERT INTO text_an
+VALUES ('354', 'снимок', 'снимками', 'S');
+INSERT INTO text_an
+VALUES ('355', 'становиться', 'стал', 'V');
+INSERT INTO text_an
+VALUES ('356', 'социальный', 'социальных', 'A');
+INSERT INTO text_an
+VALUES ('357', 'сеть', 'сетей', 'S');
+INSERT INTO text_an
+VALUES ('358', 'сделать', 'сделал', 'V');
+INSERT INTO text_an
+VALUES ('359', 'соцсеть', 'соцсетей', 'S');
+INSERT INTO text_an
+VALUES ('360', 'сайт', 'сайте', 'S');
+INSERT INTO text_an
+VALUES ('361', 'создавать', 'создал', 'V');
+INSERT INTO text_an
+VALUES ('362', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('363', 'становиться', 'станет', 'V');
+INSERT INTO text_an
+VALUES ('364', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('365', 'собирать', 'собрали', 'V');
+INSERT INTO text_an
+VALUES ('366', 'севастополь', 'Севастополя', 'S');
+INSERT INTO text_an
+VALUES ('367', 'совершать', 'совершил', 'V');
+INSERT INTO text_an
+VALUES ('368', 'самолет', 'самолет', 'S');
+INSERT INTO text_an
+VALUES ('369', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('370', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('371', 'самый', 'самых', 'APRO');
+INSERT INTO text_an
+VALUES ('372', 'самый', 'Самые', 'APRO');
+INSERT INTO text_an
+VALUES ('373', 'свадьба', 'свадьбы', 'S');
+INSERT INTO text_an
+VALUES ('374', 'статуя', 'статую', 'S');
+INSERT INTO text_an
+VALUES ('375', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('376', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('377', 'становиться', 'стал', 'V');
+INSERT INTO text_an
+VALUES ('378', 'сын', 'сына', 'S');
+INSERT INTO text_an
+VALUES ('379', 'с', 'с', 'S');
+INSERT INTO text_an
+VALUES ('380', 'сила', 'сил', 'S');
+INSERT INTO text_an
+VALUES ('381', 'супертест', 'Супертест', 'S');
+INSERT INTO text_an
+VALUES ('382', 'сколько', 'сколько', 'ADV');
+INSERT INTO text_an
+VALUES ('383', 'сани', 'сани', 'S');
+INSERT INTO text_an
+VALUES ('384', 'самый', 'самый', 'APRO');
+INSERT INTO text_an
+VALUES ('385', 'спецверсия', 'спецверсии', 'S');
+INSERT INTO text_an
+VALUES ('386', 'самый', 'самые', 'APRO');
+INSERT INTO text_an
+VALUES ('387', 'сша', 'США', 'S');
+INSERT INTO text_an
+VALUES ('388', 'страница', 'страницы', 'S');
+INSERT INTO text_an
+VALUES ('389', 'спецпроект', 'Спецпроекты', 'S');
